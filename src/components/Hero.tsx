@@ -64,9 +64,9 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://cdn.poehali.dev/projects/718f2b54-6f87-4f18-88b0-1e9177a5da01/files/0b297700-6b3a-4c38-b162-9a9a0b7d1fd8.jpg"
+                src="https://cdn.poehali.dev/files/a0d2a149-4f1b-40fe-8420-b312b2db6e92.png"
                 alt="Профессиональный таможенный брокер"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </div>
             
