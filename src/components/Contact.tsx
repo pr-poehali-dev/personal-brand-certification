@@ -7,25 +7,25 @@ const Contact = () => {
     {
       icon: "MessageCircle",
       title: "WhatsApp",
-      description: "Быстрый ответ в мессенджере",
+      description: "+7 999 560-92-66",
       action: "Написать в WhatsApp",
-      link: "https://wa.me/YOUR_PHONE",
+      link: "https://wa.me/79995609266",
       color: "bg-green-500 hover:bg-green-600"
     },
     {
       icon: "Send",
       title: "Telegram",
-      description: "Удобная переписка",
+      description: "@AlHaski",
       action: "Открыть Telegram",
-      link: "https://t.me/YOUR_USERNAME",
+      link: "https://t.me/AlHaski",
       color: "bg-blue-500 hover:bg-blue-600"
     },
     {
-      icon: "Phone",
-      title: "Телефон",
-      description: "Звоните в любое время",
-      action: "Позвонить сейчас",
-      link: "tel:+YOUR_PHONE",
+      icon: "Mail",
+      title: "Email",
+      description: "yaroslavpyzhyanov@yandex.ru",
+      action: "Написать письмо",
+      link: "mailto:yaroslavpyzhyanov@yandex.ru",
       color: "bg-accent hover:bg-accent/90"
     }
   ];

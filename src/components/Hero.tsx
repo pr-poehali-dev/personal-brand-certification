@@ -4,9 +4,9 @@ import Icon from "@/components/ui/icon";
 const Hero = () => {
   const handleContact = (method: string) => {
     const contacts = {
-      whatsapp: "https://wa.me/YOUR_PHONE",
-      telegram: "https://t.me/YOUR_USERNAME",
-      phone: "tel:+YOUR_PHONE"
+      whatsapp: "https://wa.me/79995609266",
+      telegram: "https://t.me/AlHaski",
+      phone: "tel:+79995609266"
     };
     window.open(contacts[method as keyof typeof contacts], '_blank');
   };
@@ -64,7 +64,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://cdn.poehali.dev/files/a0d2a149-4f1b-40fe-8420-b312b2db6e92.png"
+                src="https://cdn.poehali.dev/files/027c5c91-06fe-434d-a511-bdba205cd25f.jpg"
                 alt="Профессиональный таможенный брокер"
                 className="w-full h-auto object-cover"
               />
