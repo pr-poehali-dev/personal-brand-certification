@@ -25,7 +25,7 @@ const Hero = () => {
             
             <p className="text-xl text-gray-200">
               Более 5000 успешно оформленных документов для международных компаний. 
-              Работаем на результат — оплата после получения документов.
+              Профессиональное оформление сертификатов и деклараций любой сложности.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="flex items-center gap-4 pt-6 text-sm text-gray-300">
               <div className="flex items-center gap-2">
                 <Icon name="Shield" size={20} className="text-accent" />
-                <span>Постоплата</span>
+                <span>Гарантия качества</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Clock" size={20} className="text-accent" />

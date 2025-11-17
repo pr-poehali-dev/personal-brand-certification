@@ -4,22 +4,22 @@ import Icon from "@/components/ui/icon";
 const Cases = () => {
   const cases = [
     {
-      company: "Lenovo",
-      task: "Оформление сертификатов для партии ноутбуков (500 единиц)",
-      result: "Получены все необходимые документы за 4 дня. Товар успешно растаможен.",
-      metrics: ["4 дня", "500 единиц", "ТР ТС"]
+      title: "Электроника",
+      task: "Оформление сертификатов соответствия для крупной партии электроники",
+      result: "Получены все необходимые сертификаты и декларации. Товар успешно растаможен без задержек.",
+      metrics: ["200+ документов", "ТР ТС", "4 дня"]
     },
     {
-      company: "Huawei",
-      task: "Срочное оформление CT-1 для смартфонов на сумму $2M",
-      result: "Документы готовы за 3 дня, включая легализацию в МИД РФ.",
-      metrics: ["3 дня", "$2M", "CT-1"]
+      title: "Медтехника",
+      task: "Срочное оформление комплекта документов для медицинского оборудования",
+      result: "Полный пакет сертификатов и деклараций готов в срок. Оборудование допущено к использованию.",
+      metrics: ["150+ документов", "Медизделия", "5 дней"]
     },
     {
-      company: "Xiaomi",
-      task: "Комплексное оформление: сертификаты + декларация соответствия",
-      result: "Полный пакет документов. Товар прошел таможню без задержек.",
-      metrics: ["5 дней", "Комплекс", "100% успех"]
+      title: "Промоборудование",
+      task: "Комплексное оформление: сертификаты соответствия и декларации для промышленного оборудования",
+      result: "Оформлены все необходимые документы. Оборудование введено в эксплуатацию.",
+      metrics: ["300+ документов", "ТР ТС/ЕАЭС", "6 дней"]
     }
   ];
 
@@ -28,10 +28,10 @@ const Cases = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Кейсы наших клиентов
+            Примеры выполненных работ
           </h2>
           <p className="text-xl text-muted-foreground">
-            Реальные примеры работы с международными брендами
+            Реальные кейсы оформления сертификатов и деклараций
           </p>
         </div>
 
@@ -41,9 +41,9 @@ const Cases = () => {
               <CardHeader className="space-y-4">
                 <div className="flex items-center justify-between">
                   <h3 className="text-2xl font-bold text-primary">
-                    {caseItem.company}
+                    {caseItem.title}
                   </h3>
-                  <Icon name="Building2" size={32} className="text-accent" />
+                  <Icon name="FileCheck" size={32} className="text-accent" />
                 </div>
                 
                 <div className="space-y-3">
@@ -85,8 +85,8 @@ const Cases = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground text-lg">
-            <Icon name="Lock" size={16} className="inline mr-2" />
-            По просьбе клиентов другие кейсы доступны только при личном обращении
+            <Icon name="TrendingUp" size={16} className="inline mr-2" />
+            Работаем с различными категориями товаров и типами документов
           </p>
         </div>
       </div>

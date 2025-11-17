@@ -3,9 +3,9 @@ import Icon from "@/components/ui/icon";
 const Advantages = () => {
   const advantages = [
     {
-      icon: "CreditCard",
-      title: "Постоплата",
-      description: "Оплата только после получения готовых документов. Никаких предоплат и рисков для вас."
+      icon: "FileCheck",
+      title: "Большой опыт работы",
+      description: "Более 5000 успешно оформленных сертификатов и деклараций за 4+ года работы."
     },
     {
       icon: "Zap",
@@ -19,8 +19,8 @@ const Advantages = () => {
     },
     {
       icon: "Award",
-      title: "Опыт работы с крупными брендами",
-      description: "Lenovo, Huawei, Xiaomi доверяют нам. Знаем специфику сложных товаров."
+      title: "Работа с любыми товарами",
+      description: "Оформляем документы для электроники, оборудования, медтехники и других товаров."
     },
     {
       icon: "Shield",
