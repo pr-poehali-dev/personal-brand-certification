@@ -1,12 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
+import Services from "@/components/Services";
+import Advantages from "@/components/Advantages";
+import Cases from "@/components/Cases";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen">
+      <Hero />
+      <Stats />
+      <Services />
+      <Advantages />
+      <Cases />
+      <FAQ />
+      <Contact />
+      
+      <footer className="bg-primary text-white py-8">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-sm text-gray-300">
+            © 2024 Таможенное оформление. Все права защищены.
+          </p>
+          <p className="text-xs text-gray-400 mt-2">
+            Работаем только по постоплате • Гарантия результата • 5000+ оформленных документов
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
